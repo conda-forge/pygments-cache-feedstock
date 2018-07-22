@@ -1,6 +1,6 @@
 {% set name = "pygments-cache" %}
-{% set version = "0.1.1" %}
-{% set sha256 = "df6e7bc3e8cb20a19f7fb741b01effd48fd9c7d270a84d18da7ad98631360918" %}
+{% set version = "0.1.2" %}
+{% set sha256 = "6a0db9dcc430d321a6491536e9b8ac28d74396f1c87807d8fdc77b185319ec32" %}
 
 package:
   name: {{ name|lower }}
