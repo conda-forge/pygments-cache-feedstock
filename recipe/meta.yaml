@@ -7,7 +7,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://github.com/xonsh/{{ name }}/releases/download/{{ version }}/{{ version }}.tar.gz
+  url: https://github.com/xonsh/{{ name }}/releases/download/{{ version }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
