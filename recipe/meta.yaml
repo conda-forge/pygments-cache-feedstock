@@ -1,13 +1,13 @@
 {% set name = "pygments-cache" %}
-{% set version = "0.1.2" %}
-{% set sha256 = "6a0db9dcc430d321a6491536e9b8ac28d74396f1c87807d8fdc77b185319ec32" %}
+{% set version = "0.1.3" %}
+{% set sha256 = "01568c8dbd4c8853c82de644b2843af28631c8d745f8e57c31fe2ab7bbf9c9e8" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://github.com/xonsh/{{ name }}/releases/download/{{ version }}/{{ version }}.tar.gz
+  url: https://github.com/xonsh/{{ name }}/releases/download/{{ version }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
